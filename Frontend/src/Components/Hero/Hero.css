@@ -46,6 +46,8 @@
 }
 
 .hero__links>a {
+    font-family: 'Heiti TC';
     text-decoration: none;
     color: black;
+
 }
