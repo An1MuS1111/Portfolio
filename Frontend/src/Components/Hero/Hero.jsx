@@ -10,13 +10,13 @@ const Hero = () => {
             <div className='sect__hero_links'>
                 <p>Let's get connected</p>
                 <div className="hero__links">
-                    <a href="">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/khalidrafi1111" target='_blank'>Linkedin</a>
                     <br />
-                    <a href="">Github</a>
+                    <a href="https://github.com/An1MuS1111" target='_blank'>Github</a>
                     <br />
-                    <a href="">Instagram</a>
+                    <a href="https://www.instagram.com/khalidrafi1111/" target='_blank'>Instagram</a>
                     <br />
-                    <a href="">Facebook</a>
+                    <a href="https://www.facebook.com/" target='_blank'>Facebook</a>
                 </div>
             </div>
         </div>
