@@ -1,0 +1,8 @@
+.navbar__drop {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+}

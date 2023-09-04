@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'PP-Mori';
+    src: local('PP-Mori'), url(../../Fonts/PP_Mori/PPMori-Regular.otf) format('otf');
+
+}
+
+.section__navbar {
+    display: flex;
+    height: 100px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sect__nav__name {
+    margin-left: 100px;
+    font-size: larger;
+    font-family: 'PP-Mori';
+}
+
+.sect__nav__contact {
+    margin-right: 100px;
+    height: 40px;
+    border-radius: 7px;
+    width: 100px;
+    background-color: white;
+}
