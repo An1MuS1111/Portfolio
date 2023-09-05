@@ -10,10 +10,10 @@ const Technical = (props) => {
             <div className='sect__tech__tools'>
                 {props.tools.map((tool) => {
                     return (
-                        <div>
-                            <img src="" alt="" />
-                            <p>{tool.name}</p>
-                            <p>{tool.description}</p>
+                        <div className='tech__tools_item'>
+                            <img src={tool.image} alt="" />
+                            <p className='tech__tool_name'>{tool.name}</p>
+                            <p className='tech__tool_desc'>{tool.description}</p>
                         </div>
                     )
                 })}

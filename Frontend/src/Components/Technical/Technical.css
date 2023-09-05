@@ -1,0 +1,44 @@
+.section__technical {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Helvetica';
+    margin-right: 100px;
+}
+
+.sect__tech__title {
+    font-size: 2.3rem;
+    margin-bottom: 0;
+}
+
+.sect__tect__desc {
+    font-size: small;
+    text-align: justify;
+    width: 35rem;
+}
+
+.sect__tech__tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.tech__tools_item {
+    color: rgb(79, 79, 79);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+
+}
+
+.tech__tool_name {
+    font-size: 1.3rem;
+}
+
+.tech__tool_desc {
+
+    text-align: center;
+    font-size: small;
+}
