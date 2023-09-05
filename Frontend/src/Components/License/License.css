@@ -1,0 +1,25 @@
+.section__license {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.section__license_head {
+    font-size: 50px;
+}
+
+.license__block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.lice__block_each {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lice__image {
+    width: 1000px;
+}

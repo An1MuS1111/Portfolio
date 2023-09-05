@@ -3,12 +3,14 @@
     margin-left: 100px;
     background-color: aqua;
     display: grid;
-    grid-template-columns: 1fr minmax(fit-content, 10%) fit-content(10%);
+    /* grid-template-columns: 1fr minmax(fit-content, 10%) fit-content(10%); */
+    grid-template-columns: 1fr .3fr;
     grid-template-rows: 1fr 1fr 1fr;
+
 }
 
 .sect__soft_eng {
-
+    visibility: inherit;
     font-family: 'Helvetica';
     margin: 0;
     align-self: end;
@@ -18,18 +20,20 @@
 }
 
 .sect__second_desc {
-    padding-bottom: 20px;
+    font-family: 'Helvetica';
+    padding-bottom: 2.5rem;
     text-align: justify;
-    width: 200px;
+    width: 250px;
     align-self: end;
     grid-column: 2/3;
     grid-row: 2/3;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     justify-self: start;
 }
 
 
 .sect__third_desc {
+    font-family: 'Helvetica';
     font-size: 20px;
     width: 600px;
     text-align: justify;

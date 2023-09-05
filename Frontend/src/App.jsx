@@ -3,6 +3,7 @@ import { useState } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from './Components/Hero/Hero'
 import Technical from "./Components/Technical/Technical";
+import License from "./Components/License/License";
 
 
 
@@ -10,6 +11,16 @@ import Technical from "./Components/Technical/Technical";
 
 
 const App = () => {
+
+    const [licenses, setLicences] = useState([{
+        id: 1,
+        name: 'React, NodeJS, Express & MongoDB - The MERN Fullstack Guide',
+        provider: 'Academind',
+        description: 'loren ipsum',
+        image: 'images/license/license_1.jpg'
+    }])
+
+
 
     const [tools, setTools] = useState([{
         id: 1,
@@ -60,6 +71,8 @@ const App = () => {
             <Navbar />
             <Hero />
             <Technical tools={tools} />
+            <License licenses={licenses} />
+
         </div>
     )
 }
