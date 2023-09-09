@@ -24,15 +24,15 @@ const App = () => {
 
     const [tools, setTools] = useState([{
         id: 1,
-        name: 'Adobe XD',
+        name: 'Jira',
         description: 'Issue tracking tool that helps product managers track the progress of the product development',
-        image: 'images/technical/Adobe-XD.png'
+        image: 'images/technical/Jira.png'
 
     }, {
         id: 2,
-        name: 'Adobe XD',
-        description: 'Issue tracking tool that helps product managers track the progress of the product development',
-        image: 'images/technical/Adobe-XD.png'
+        name: 'Adobe Photoshop',
+        description: 'Photoshop is used by a wide range of people, including photographers, graphic designers, web designers, and artists',
+        image: 'images/technical/Adobe-Photoshop.png'
     }, {
         id: 3,
         name: 'Adobe Dick',
@@ -56,14 +56,14 @@ const App = () => {
         image: 'images/technical/Adobe-XD.png'
     }, {
         id: 3,
-        name: 'Adobe Dick',
+        name: 'Sketch',
         description: 'Issue tracking tool that helps product managers track the progress of the product development',
         image: 'images/technical/Adobe-XD.png'
     }, {
         id: 3,
-        name: 'Adobe Dick',
-        description: 'Issue tracking tool that helps product managers track the progress of the product development',
-        image: 'images/technical/Adobe-XD.png'
+        name: 'Sketch',
+        description: 'Collaborative design tool that helps product managers create wireframes, prototypes and mockups',
+        image: 'images/technical/Sketch.png'
     }
     ])
     return (
