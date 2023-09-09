@@ -1,7 +1,7 @@
 .section__hero {
     margin-right: 100px;
     margin-left: 100px;
-    background-color: aqua;
+    background-color: white;
     display: grid;
     /* grid-template-columns: 1fr minmax(fit-content, 10%) fit-content(10%); */
     grid-template-columns: 1fr .3fr;

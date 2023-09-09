@@ -7,7 +7,7 @@
 .section__navbar {
     display: flex;
     height: 75px;
-    background-color: aquamarine;
+    background-color: white;
     align-items: center;
     justify-content: space-between;
 }
